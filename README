@@ -1,0 +1,18 @@
+[email]So, you mentioned that you wanted to write some code that simulated
+the Monty Hall problem. [/email]
+
+I was thinking that it could be a python script which did the following.
+1) Asked for how many games to play.
+2) For game n:
+ a) randomly select a door
+ b) was fixed to select a door
+3) Show one of the other two doors that isn't a winner
+4) For game n:
+ a) randomly chose to swap doors
+ b) was fixed to swap or not
+5) Show the winner and see if you won
+6) Store stats so we could see this output:
+
+Games: 10000
+Games won w/ door switch: xxxx (xx%)
+Games won w/o door switch: xxxx (xx%)
